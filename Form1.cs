@@ -30,6 +30,45 @@ namespace zombieShooter
             InitializeComponent();
         }
 
+        private void resetgame()
+        {
+            gameOver = false;
+            playerHealth = 100;
+            progressBar1.Value = (int)playerHealth;
+            score = 0;
+            ammo = 10;
+
+            for (int x = this.Controls.Count - 1; x >= 0; x--)
+            {
+                if (this.Controls[x].Tag == "zombie" || this.Controls[x].Tag == "ammo")
+                {
+                    // this.Controls.Remove((PictureBox)Controls[x - 1]);
+                    // ((PictureBox)Controls[x - 1]).Dispose();
+                    this.Controls.Remove(Controls[x - 1]);
+                    Controls[x - 1].Dispose();
+                }
+            }
+
+            /*foreach (Control x in this.Controls)
+            {
+                if (x.Tag == "zombie")
+                {
+                    x.Dispose()
+                }
+            }*/
+
+            makeZombies();
+            makeZombies();
+            makeZombies();
+
+            player.Image = Properties.Resources.up;
+            player.Left = 444;
+            player.Top = 263;
+            player.BringToFront();
+
+            timer1.Start();
+        }
+
         private void keyisdown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Left)
@@ -63,7 +102,7 @@ namespace zombieShooter
 
         private void keyisup(object sender, KeyEventArgs e)
         {
-            if (gameOver) return;
+            if (gameOver) resetgame();
 
             if (e.KeyCode == Keys.Left)
             {
