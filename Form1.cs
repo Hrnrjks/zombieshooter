@@ -242,6 +242,9 @@ namespace zombieShooter
             zombie.Tag = "zombie";
             zombie.Image = Properties.Resources.zdown;
             zombie.Left = rnd.Next(0, 800);
+            zombie.SizeMode = PictureBoxSizeMode.AutoSize;
+            this.Controls.Add(zombie);
+            player.BringToFront();
         }
     }
 }

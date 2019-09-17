@@ -1,0 +1,10 @@
+C:\Users\d0k\Documents\Visual Studio 2017\Projects\zombieShooter\zombieShooter\bin\Debug\zombieShooter.exe.config
+C:\Users\d0k\Documents\Visual Studio 2017\Projects\zombieShooter\zombieShooter\bin\Debug\zombieShooter.exe
+C:\Users\d0k\Documents\Visual Studio 2017\Projects\zombieShooter\zombieShooter\bin\Debug\zombieShooter.pdb
+C:\Users\d0k\Documents\Visual Studio 2017\Projects\zombieShooter\zombieShooter\obj\Debug\zombieShooter.csprojAssemblyReference.cache
+C:\Users\d0k\Documents\Visual Studio 2017\Projects\zombieShooter\zombieShooter\obj\Debug\zombieShooter.Form1.resources
+C:\Users\d0k\Documents\Visual Studio 2017\Projects\zombieShooter\zombieShooter\obj\Debug\zombieShooter.Properties.Resources.resources
+C:\Users\d0k\Documents\Visual Studio 2017\Projects\zombieShooter\zombieShooter\obj\Debug\zombieShooter.csproj.GenerateResource.cache
+C:\Users\d0k\Documents\Visual Studio 2017\Projects\zombieShooter\zombieShooter\obj\Debug\zombieShooter.csproj.CoreCompileInputs.cache
+C:\Users\d0k\Documents\Visual Studio 2017\Projects\zombieShooter\zombieShooter\obj\Debug\zombieShooter.exe
+C:\Users\d0k\Documents\Visual Studio 2017\Projects\zombieShooter\zombieShooter\obj\Debug\zombieShooter.pdb
